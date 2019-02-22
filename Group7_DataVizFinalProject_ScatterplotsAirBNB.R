@@ -54,7 +54,7 @@ ggplot(data, aes(data$price, data$number_of_reviews, color = color1)) +
         axis.text.y.left = element_text(hjust = 1.5, family = font2),
         axis.text.x.bottom = element_text(vjust = 5, family = font2))
 grid.text(unit(0.5, 'npc'), unit(0.9,"npc"), check.overlap = T,just = "left",
-          label="Price & No of Reviews",
+          label="Price & No. of Reviews",
           gp=gpar(col=color1, fontsize=16, fontfamily = font2))
 ################################################################
 ggplot(data, aes(data$price, data$availability_365, color = color1)) +
