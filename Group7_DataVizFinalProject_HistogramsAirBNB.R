@@ -189,7 +189,7 @@ ggplot(data=data, aes(data$price_two_nights_two_people)) +
         legend.position = 'None',
         plot.background = element_rect(fill = color2))
 grid.text(unit(0.2, 'npc'), unit(0.9,"npc"), check.overlap = T,just = "left",
-          label="Price for 2 nights for 2 guest",
+          label="Price for 2 nights for 2 guests",
           gp=gpar(col=color1, fontsize=16, fontfamily = font2))
 ################################################################
 ggplot(data=data, aes(data$minimum_nights)) + 
